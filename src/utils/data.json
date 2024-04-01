@@ -1,0 +1,129 @@
+  {
+    //  接口路径地址
+    "init.do": {
+      "code": 1000,
+      "data": {
+        "vipFlag": "0",
+        "guideShow": "0",
+        "wednesday": true,
+        "showModules": [
+          {
+            "MODULE_IMAGE": "https://m.sd.10086.cn/act_service/resources/1532/images/banner.png",
+            "MODULE_NAME": "banner",
+            "MODULE_LINK": "https://www.baodu.com",
+            "SPECIAL_FLAG": "2021-10-01",
+            "WEEK": "4"
+          },
+          {
+            "MODULE_IMAGE": "https://m.sd.10086.cn/fe_service/sd1813/img/e_steward.e31d9b68.gif",
+            "MODULE_NAME": "flutter",
+            "MODULE_LINK": "https://www.baodu.com",
+            "TITLE": "浮窗"
+          },
+          {
+            "vipLists": [
+              {
+                "MODULE_IMAGE": "https://m.sd.10086.cn/act_service/resources/1532/images/zxVIP.png",
+                "MODULE_NAME": "vip",
+                "MODULE_LINK": "18764741017,18764741016",
+                "couponList": [
+                  {
+                    "GET_FLAG": "toGet",
+                    "MODULE_NAME": "vip",
+                    "IMAGE": "https://m.sd.10086.cn/act_service/resources/1532/images/zx1GBNew.png",
+                    "TITLE": "新人首单礼-1GB流量兑换券  ",
+                    "FLAG": "newGift",
+                    "PRIZE_NO": "zxNNO002",
+                    "SUB_MODULE": "zx",
+                    "LINK": "http://www.baidu.com"
+                  },
+                  {
+                    "GET_FLAG": "toGet",
+                    "MODULE_NAME": "vip",
+                    "IMAGE": "https://m.sd.10086.cn/act_service/resources/1532/images/zx1GB.png",
+                    "TITLE": "1GB通用流量 月月可享",
+                    "FLAG": "zwCoupon",
+                    "PRIZE_NO": "zxZWNO001",
+                    "SUB_MODULE": "zx",
+                    "LINK": "http://www.baidu.com"
+                  },
+                  {
+                    "GET_FLAG": "toGet",
+                    "MODULE_NAME": "vip",
+                    "IMAGE": "https://m.sd.10086.cn/act_service/resources/1532/images/zx1GBNew.png",
+                    "TITLE": "新人首单礼-1GB流量兑换券  ",
+                    "FLAG": "newGift",
+                    "PRIZE_NO": "zxNNO002",
+                    "SUB_MODULE": "zx",
+                    "LINK": "http://www.baidu.com"
+                  },
+                  {
+                    "GET_FLAG": "toGet",
+                    "MODULE_NAME": "vip",
+                    "IMAGE": "https://m.sd.10086.cn/act_service/resources/1532/images/zx1GB.png",
+                    "TITLE": "1GB通用流量 月月可享",
+                    "FLAG": "zwCoupon",
+                    "PRIZE_NO": "zxZWNO001",
+                    "SUB_MODULE": "zx",
+                    "LINK": "http://www.baidu.com"
+                  }
+                ],
+                "SPECIAL_FLAG": "ZXVIP",
+                "WAIT_TIME": "1000",
+                "TITLE": "会员楼层",
+                "OPEN_FLAG": "1"
+              },
+              {
+                "MODULE_IMAGE": "https://m.sd.10086.cn/act_service/resources/1532/images/lifeVIP.png",
+                "MODULE_NAME": "vip",
+                "MODULE_LINK": "18764741017,18764741016",
+                "couponList": [
+                  {
+                    "GET_FLAG": "toJump",
+                    "MODULE_NAME": "vip",
+                    "IMAGE": "https://m.sd.10086.cn/act_service/resources/1532/images/life1GB.png",
+                    "SUB_TITLE": "toJump",
+                    "LINK": "http://www.baidu.com",
+                    "TITLE": "1GB通用流量 月月可享",
+                    "FLAG": "default",
+                    "SUB_MODULE": "life"
+                  },
+                  {
+                    "GET_FLAG": "toJump",
+                    "MODULE_NAME": "vip",
+                    "IMAGE": "https://m.sd.10086.cn/act_service/resources/1532/images/life20y.png",
+                    "SUB_TITLE": "toJump",
+                    "LINK": "http://www.baidu.com",
+                    "TITLE": "20元商超券",
+                    "FLAG": "default",
+                    "SUB_MODULE": "life"
+                  },
+                  {
+                    "GET_FLAG": "toLook",
+                    "MODULE_NAME": "vip",
+                    "IMAGE": "https://m.sd.10086.cn/act_service/resources/1532/images/lifemore.png",
+                    "SUB_TITLE": "toLook",
+                    "TITLE": "更多权益",
+                    "FLAG": "default",
+                    "SUB_MODULE": "life",
+                    "LINK": "http://www.baidu.com"
+                  }
+                ],
+                "SPECIAL_FLAG": "LIFEVIP",
+                "WAIT_TIME": "1000",
+                "TITLE": "会员楼层",
+                "OPEN_FLAG": "0"
+              }
+            ],
+            "MODULE_IMAGE": "https://m.sd.10086.cn/act_service/resources/1532/images/lifeVIP.png",
+            "MODULE_NAME": "vip",
+            "SPECIAL_FLAG": "ZXVIP",
+            "WAIT_TIME": "1000",
+            "TITLE": "会员楼层"
+          }
+        ]
+      }
+    },
+    // 其他接口
+
+  }
