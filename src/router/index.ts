@@ -32,6 +32,26 @@ const routes: Array<RouteRecordRaw> = [
 
       },
       {
+        path: '/shop/MessageHistroy',
+        name: 'MessageHistroy',
+        meta: {
+          title: "MessageHistroy",
+          keepAlive: true
+        },
+        component: () => import("./../components/shop/MessageHistroy.vue"),
+
+      },
+      {
+        path: '/shop/Chart',
+        name: 'Chart',
+        meta: {
+          title: "Chart",
+          keepAlive: true
+        },
+        component: () => import("./../components/shop/Chart.vue"),
+
+      },
+      {
         path: '/message',
         name: 'Message',
         meta: {
@@ -41,6 +61,7 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import("./../components/message/Index.vue"),
 
       },
+    
       {
         path: '/mine',
         name: 'Mine',

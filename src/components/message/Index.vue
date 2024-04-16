@@ -13,7 +13,7 @@
       </van-nav-bar>
     </van-sticky>
 
-    <van-row style="margin-top:8px">
+    <van-row style="margin-top:12px">
       <van-col span="8">
         <div class="Fcenter">
           <van-icon name="like-o" class="Ficon" />
@@ -49,7 +49,7 @@
           <div class="time_R">
             <div class="r_top">{{item.week}}</div>
             <div class="r_bottom">
-              <van-badge :content="20" />
+              <van-badge size="small" :content="20" />
             </div>
           </div>
         </div>
@@ -95,7 +95,7 @@ onLoad();
 
 <style scoped lang="scss">
 .message_index {
-  font-size: 15px;
+  font-size: 0.3rem;
   .found {
     display: inline-block;
     margin-left: 4px;
@@ -105,13 +105,13 @@ onLoad();
     text-align: center;
 
     .Ficon {
-      font-size: 15px;
+      font-size: 0.5rem
     }
   }
 
   .item_E {
-    height: 50px;
-    line-height: 50px;
+    height: 60px;
+    line-height: 60px;
     margin: 10px 20px; 
     border: 1px solid #ddd;
     display: flex;
@@ -145,7 +145,7 @@ onLoad();
           margin-top: -10px;
         }
         .c_bottom {
-          font-size: 12px;
+          font-size: 0.2rem;
           color: #aaa;
         }
       }
@@ -156,11 +156,15 @@ onLoad();
           width: 100%;
           height: 50%;
           margin-top: -10px;
-          font-size: 12px;
+          font-size: 0.2rem;
           color: #999;
         }
         .r_bottom {
-          margin-top: 5px;
+          margin-top: 6px; 
+          margin-left:-8px;
+          .van-badge{
+            font-size:0.25rem;
+          }
         }
       }
     }

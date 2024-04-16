@@ -10,50 +10,29 @@
       <van-grid :column-num="5">
         <van-grid-item icon="bag-o" text="我的订单" />
         <van-grid-item icon="cart-o" text="购物车" />
-        <van-grid-item icon="chat-o" text="客服消息" />
+        <van-grid-item icon="chat-o" text="客服消息" @click="handlechart" />
         <van-grid-item icon="shop-collect-o" text="关注店铺" />
-        <van-grid-item icon="description-o" text="消息记录" />
+        <van-grid-item icon="description-o" text="消息记录" @click="handleMsg" />
       </van-grid>
-
-      <!-- <van-row>
-        <van-col span="5">
-          <div class="Fcenter">
-            <van-icon name="bag-o" class="Ficon" />
-          </div>
-          <div class="Fcenter">我的订单</div>
-        </van-col>
-        <van-col span="4">
-          <div class="Fcenter">
-            <van-icon name="cart-o" class="Ficon" />
-          </div>
-          <div class="Fcenter">购物车</div>
-        </van-col>
-        <van-col span="5">
-          <div class="Fcenter">
-            <van-icon name="chat-o" class="Ficon" />
-          </div>
-          <div class="Fcenter">客服消息</div>
-        </van-col>
-        <van-col span="5">
-          <div class="Fcenter">
-            <van-icon name="shop-collect-o" class="Ficon" />
-          </div>
-          <div class="Fcenter">关注店铺</div>
-        </van-col>
-        <van-col span="5">
-          <div class="Fcenter">
-            <van-icon name="description-o" class="Ficon" />
-          </div>
-          <div class="Fcenter">消息记录</div>
-        </van-col>
-      </van-row>-->
     </div>
   </div>
 </template>
 
 <script lang="ts" setup>
 import { ref } from "vue";
+import { useRouter } from "vue-router";
+
+const router = useRouter();
 const value = ref("");
+
+const handleMsg = () => {
+  console.log(11)
+  router.push('/shop/MessageHistroy')
+};
+const handlechart = () => {
+  console.log(11)
+  router.push('/shop/Chart')
+};
 </script>
 
 <style scoped lang="scss">
@@ -64,12 +43,6 @@ const value = ref("");
     width: calc(100% - 30px);
   }
 
-  .Fcenter {
-    text-align: center;
-
-    .Ficon {
-      font-size: 15px;
-    }
-  }
+  
 }
 </style>

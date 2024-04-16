@@ -16,7 +16,7 @@ export default defineConfig({
     }
   },
   server: {
-    host: '192.168.0.103',
+    // host: '192.168.0.103',
     port: 5000, //启动端口
     proxy: {
       // 选项写法
